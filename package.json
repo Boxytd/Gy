@@ -1,0 +1,14 @@
+{
+  "name": "stremio-stremsrc-vercel-resettable",
+  "version": "0.1.0-resettable",
+  "description": "Resettable, defensive VidSRC extractor for Vercel",
+  "main": "api/index.js",
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "cheerio": "^1.0.0-rc.12",
+    "m3u8-parser": "^7.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
